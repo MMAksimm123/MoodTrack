@@ -1,0 +1,62 @@
+.styleButtonClose {
+  margin-right: auto;
+  margin-left: 18px;
+  margin-top: 32px;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+.buttonInOption {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonsInOptions {
+  width: 328px;
+  height: 79px;
+  border-radius: 15px;
+  border: none;
+  background: #8BC0CF;
+  color: #FFF;
+  font-family: Comfortaa;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.firstButton {
+  margin-top: 133px;
+}
+
+.secondButton {
+  margin-top: 22px;
+}
+
+.OptionButton {
+  display: flex;
+  flex-direction: row;
+}
+
+.textInButton {
+  margin-right: auto;
+  margin-left: 24px;
+}
+
+.checkboxInButton {
+  justify-content: baseline;
+  margin-left: auto;
+  margin-right: 33px;
+}
+
+.checkbox {
+  width: 21px;
+  height: 21px;
+}

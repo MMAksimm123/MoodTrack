@@ -4,18 +4,53 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Option</title>
+  <link rel="stylesheet" href="../style/style.css">
+  <link rel="stylesheet" href="../style/styleForOptionPage.css">
 </head>
+<!-- Кнопка закрытия экрана на экране настроек -->
 <body>
   <header>
-    Чердак
+    <div class="styleButtonClose">
+      <a href="../index.html">
+        <img src="../img/buttonClose.png" alt="">
+      </a>
+    </div>
   </header>
-
+  <!-- Основная часть с кнопками выбора тем и включением напоминания -->
   <main>
-    Основа
+    <div class="buttonInOption firstButton">
+      <div class="buttonOnScreenWhitSceans">
+        <button class="buttonsInOptions" onclick="document.location = ''"> <!-- добавить ссылку на темы -->
+          <div class="OptionButton">
+            <div class="textInButton">
+              <p>
+                Темы
+              </p>
+            </div>
+          </div>
+        </button>
+      </div>
+
+      <div class="buttonOnReminder secondButton">
+        <button class="buttonsInOptions" onclick="document.location = ''"> <!-- добавить ссылку на темы -->
+          <div class="OptionButton">
+            <div class="textInButton">
+              <p>
+                Напоминания
+              </p>
+            </div>
+
+            <div class="checkboxInButton">
+              <input class="checkbox" type="checkbox"> <!-- Узнать нужен ли на кнопке переключатель -->
+            </div>
+          </div>
+        </button>
+      </div>
+    </div>
   </main>
 
   <footer>
-    Подвал
+
   </footer>
 </body>
 </html>
