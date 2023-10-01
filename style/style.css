@@ -93,12 +93,8 @@ header {
 .backgroundInFooter {
   grid-row-start: 1;
   grid-column-start: 1;
-  margin-top: 114px;
+  margin-top: 113px;
   max-width: auto;
-}
-
-footer {
-  background-color: red;
 }
 
 .grid-container {
@@ -113,7 +109,7 @@ footer {
 .buttonToCalendar {
   margin-right: auto;
   margin-left: 54px;
-  margin-top: 114px;
+  margin-top: 127px;
 }
 
 .calendarButton {
@@ -122,9 +118,9 @@ footer {
 }
 
 .buttonToAdd {
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 85px;
+  margin-right: 32px;
+  margin-left: 25px;
+  margin-top: 95px;
 }
 
 .addButton {
@@ -137,7 +133,7 @@ footer {
 .buttonToStatistic {
   margin-left: auto;
   margin-right: 46px;
-  margin-top: 115px;
+  margin-top: 130px;
 }
 
 .statisticButton {
